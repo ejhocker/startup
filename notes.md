@@ -1,0 +1,1 @@
+Visual Code is very good at making sure everything runs smoothly when it comes to github and commits. Even if I mess something up, it will still be in my Github!
