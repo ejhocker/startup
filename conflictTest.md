@@ -1,3 +1,3 @@
-Hello, I like crunchy peanut butter. :D
+Hello, I like smooth peanut butter. :D
 Yes, I do too!
 But sometimes it's too sticky...
