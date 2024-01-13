@@ -1,2 +1,2 @@
 # startup
-[Notes](cs235/startup/notes.md)
+[Notes](notes.md)
