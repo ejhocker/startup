@@ -1,3 +1,0 @@
-Hello, I like crunchy peanut butter. :D
-Yes, I do too!
-But sometimes it's too sticky...
