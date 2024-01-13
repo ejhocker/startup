@@ -1,2 +1,2 @@
 # startup
-[Notes](startup/notes.md)
+[Notes](startup\notes.md)
