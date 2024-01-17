@@ -7,19 +7,18 @@ Picture this: You have a few friends over and your dog meanders by. As your frie
 - Curated list of tricks preprogrammed into the app
 - A list of tricks learned for each user that is editable
 - Notifications when a user marks a trick as learned
-- 
-
+- Step by Step instructions and pictures for each preprogrammed trick
 
 ### Design
 
 ### Technologies
-**HTML** - The Application will be structured using correct HTML. There are three HTML pages, one for login, one for possible tricks to learn, and one for tricks already learned.
-**CSS** - CSS will be used for the styling of the application and will allow it to look good on different screens. 
-**Javascript** - This will be used for the login, the display of tricks to learn, and for editing the list of tricks learned.
-**SERVICE** - The backend server will be used for logging in, submitting tricks learned, and retrieving tricks learned.
-**REACT** - The application will use the react web framework.
-**Authentication** - A secure registration and login for each user that is stored in the database.
-**Web Socket Data** - When a user marks a trick as learned there is a notification for other users.
-**Database Data** - The list of tricks learned for each user is stored in the database.
+- **HTML** - The Application will be structured using correct HTML. There are three HTML pages, one for login, one for possible tricks to learn, and one for tricks already learned.
+- **CSS** - CSS will be used for the styling of the application and will allow it to look good on different screens. 
+- **Javascript** - This will be used for the login, the display of tricks to learn, and for editing the list of tricks learned.
+- **SERVICE** - The backend server will be used for logging in, submitting tricks learned, and retrieving tricks learned.
+- **REACT** - The application will use the react web framework.
+- **Authentication** - A secure registration and login for each user that is stored in the database.
+- **Web Socket Data** - When a user marks a trick as learned there is a notification for other users.
+- **Database Data** - The list of tricks learned for each user is stored in the database.
 
 [Notes](notes.md)
