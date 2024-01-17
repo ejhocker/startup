@@ -11,12 +11,13 @@ Picture this: You have a few friends over and your dog meanders by. As your frie
 
 ### Design
 
-### Technologies
+
+### Required Technologies
 - **HTML** - The Application will be structured using correct HTML. There are three HTML pages, one for login, one for possible tricks to learn, and one for tricks already learned.
 - **CSS** - CSS will be used for the styling of the application and will allow it to look good on different screens. 
 - **Javascript** - This will be used for the login, the display of tricks to learn, and for editing the list of tricks learned.
 - **Service** - The backend server will be used for logging in, submitting tricks learned, and retrieving tricks learned.
-- **REACT** - The application will use the react web framework.
+- **React** - The application will use the react web framework.
 - **Authentication** - A secure registration and login for each user that is stored in the database.
 - **Web Socket Data** - When a user marks a trick as learned there is a notification for other users.
 - **Database Data** - The list of tricks learned for each user is stored in the database.
