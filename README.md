@@ -8,6 +8,7 @@ Picture this: You have a few friends over and your dog meanders by. As your frie
 - A list of tricks learned for each user that is editable
 - Notifications when a user marks a trick as learned
 - Step by Step instructions and pictures for each preprogrammed trick
+- Links from each trick in the trick list to the trick instructions
 
 ### Design
 ![Mockup](20240117_211242.jpg)
