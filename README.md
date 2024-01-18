@@ -10,7 +10,7 @@ Picture this: You have a few friends over and your dog meanders by. As your frie
 - Step by Step instructions and pictures for each preprogrammed trick
 
 ### Design
-![20240117_211242](https://github.com/ejhocker/startup/assets/156460359/6a68dec3-e86f-4baf-a070-f678e1d14335)
+![Mockup](20240117_211242.jpg)
 
 
 ### Required Technologies
