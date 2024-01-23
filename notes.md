@@ -2,4 +2,4 @@ Visual Code is very good at making sure everything runs smoothly when it comes t
 
 Server IP Address: 3.219.24.87
 
-http:/sitpretty.click
+https://sitpretty.click
