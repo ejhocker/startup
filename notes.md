@@ -35,5 +35,5 @@ https://sitpretty.click
 #### Special Characters:
 
 - | - Take the output from the command on the left and pipe, or pass, it to the command on the right
-- /> - Redirect output to a file. Overwrites the file if it exists
-- />> - Redirect output to a file. Appends if the file exists
+- > /- Redirect output to a file. Overwrites the file if it exists
+- >> /- Redirect output to a file. Appends if the file exists
