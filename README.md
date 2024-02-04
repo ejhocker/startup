@@ -24,4 +24,16 @@ Picture this: You have a few friends over and your dog meanders by. As your frie
 - **Web Socket Data** - When a user marks a trick as learned there is a notification for other users.
 - **Database Data** - The list of tricks learned for each user is stored in the database.
 
+### HTML Deliverable
+The structure of the application has been built with HTML.
+
+- **HTML Pages** - Three HTML pages that represent the login page, the trick menu, and the checklist of mastered tricks. I plan to use a d
+- **Links** - There are navigational links at the top of the three main pages to each of the other pages. The tricks in the trick menu each link to their respective trick page.
+- **Text** - Each trick is described with textual steps.
+- **Third Party Service Call** - The dog fact on the mastery page is the placeholder for calling a Third Party Service that returns dog facts. 
+- **Images** - There are images for each of the trick HTML pages as well as the bullet points and checkboxes will be images in later updates.
+- **Login** - The input box and submit button on the home page are for logging in.
+- **Database** - The mastery of tricks checkbox list will be pulled from the database (maintaining the information across the app).
+- **WebSocket** - The notifications about other users learning tricks represent the interaction between users through the WebSocket.
+
 [Notes](notes.md)
