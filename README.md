@@ -27,7 +27,7 @@ Picture this: You have a few friends over and your dog meanders by. As your frie
 ### HTML Deliverable
 The structure of the application has been built with HTML.
 
-- **HTML Pages** - Three HTML pages that represent the login page, the trick menu, and the checklist of mastered tricks. I plan to use a d
+- **HTML Pages** - I created three HTML pages that represent the login page, the trick menu, and the checklist of mastered tricks. I plan to use dynamic pages in JavaScript to display the trick steps/information, so I only completely finished the sit html page, though there are html pages for each trick with their respective image as placeholders.
 - **Links** - There are navigational links at the top of the three main pages to each of the other pages. The tricks in the trick menu each link to their respective trick page.
 - **Text** - Each trick is described with textual steps.
 - **Third Party Service Call** - The dog fact on the mastery page is the placeholder for calling a Third Party Service that returns dog facts. 
