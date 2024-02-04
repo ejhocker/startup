@@ -31,7 +31,7 @@ The structure of the application has been built with HTML.
 - **Links** - There are navigational links at the top of the three main pages to each of the other pages. The tricks in the trick menu each link to their respective trick page.
 - **Text** - Each trick is described with textual steps.
 - **Third Party Service Call** - The dog fact on the mastery page is the placeholder for calling a Third Party Service that returns dog facts. 
-- **Images** - There are images for each of the trick HTML pages as well as the bullet points and checkboxes will be images in later updates.
+- **Images** - There are images for each of the trick HTML pages as well as the bullet points and checkboxes will be images in later updates. The yellow bone on the trick page will replace all of the bullet points on the page as well as the checkboxes on the mastery page. When clicked, the yellow bones on the mastery page should turn into the broken green bone signifying that it is completed.
 - **Login** - The input box and submit button on the home page are for logging in.
 - **Database** - The mastery of tricks checkbox list will be pulled from the database (maintaining the information across the app).
 - **WebSocket** - The notifications about other users learning tricks represent the interaction between users through the WebSocket.
