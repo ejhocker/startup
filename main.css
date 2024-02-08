@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display:flex;
+}
+
+div {
+    padding: 0 0.5
+}
