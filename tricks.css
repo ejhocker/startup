@@ -1,3 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .trick-list {
 	margin: 0;
 	padding: 10px 0 10px 50px;
@@ -6,4 +18,7 @@
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
+    
+    display: flex;
+    flex-direction: column;
 }
