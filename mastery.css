@@ -1,0 +1,9 @@
+.trick-mastered {
+    margin: 0;
+	padding: 10px 0 10px 50px;
+	list-style: none;
+	background-image: url("yellowBone.JPG");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
