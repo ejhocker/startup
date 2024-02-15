@@ -1,13 +1,42 @@
+*{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+html {
+    height: 100%;
+}
+
 body {
-    display: flex;
+    display:flex;
     flex-direction: column;
     margin: 0;
     height: 100vh;
 }
 
+header {
+    flex: 0 60px;
+    background: rgba(247, 183, 5, 0.4);
+}
+
 main {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgba(75, 102, 38, 0.4);
+}
+
+footer {
+    flex: 0 30px;
+    color: rgb(75, 102, 38,);
+    background: rgba(247, 183, 5, 0.4);
+}
+
+footer a {
+    float: right;
 }
 
 .trick-list {
@@ -18,7 +47,30 @@ main {
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
+    border-radius: 15%;
     
     display: flex;
     flex-direction: column;
 }
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1em;
+}
+
+@media (orientation: portrait) {
+    main {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-height: 500px) {
+    header {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+  }

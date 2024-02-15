@@ -50,3 +50,18 @@ div {
 .login {
     padding-bottom: 1px;
 }
+
+@media (orientation: portrait) {
+    main {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-height: 500px) {
+    header {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+  }
