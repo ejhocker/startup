@@ -51,5 +51,6 @@ For this deliverable I properly styled the application into its final appearance
 - **Application elements** - login and navbar are using bootstrap
 - **Application text content** - Consistent fonts (sans-serif font)
 - **Application images** - curved edges around list photos
+**Note** - The Sit trick is still the template design for the rest of the tricks, I am still planning on using JavaScript dynamic pages so I only updated one of the pages (Sit) with CSS.
 
 [Notes](notes.md)
