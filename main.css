@@ -10,10 +10,13 @@ html {
 body {
     display:flex;
     flex-direction: column;
+    margin: 0;
+    height: 100vh;
 }
 
 header {
-    flex: 0 80px;
+    flex: 0 60px;
+    background: rgba(247, 183, 5, 0.4);
 }
 
 main {
@@ -22,10 +25,18 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    background-color: rgba(75, 102, 38, 0.4);
 }
 
 footer {
-    flex: 0 50px;
+    flex: 0 30px;
+    color: rgb(75, 102, 38,);
+    background: rgba(247, 183, 5, 0.4);
+}
+
+footer a {
+    float: right;
 }
 
 p {
@@ -34,4 +45,8 @@ p {
 
 div {
     padding: 0 0.5
+}
+
+.login {
+    padding-bottom: 1px;
 }

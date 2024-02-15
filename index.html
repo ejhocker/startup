@@ -14,9 +14,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-light">
+        <nav class="navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <h1>Sit Pretty</h1>
                 </a>
                 <menu>
@@ -29,22 +29,25 @@
             </div>
         </nav>
     </header>
+    
     <main class="container-fluid text-center">
         <h4>Ready to Train?</h4>
         <form method="get" action="tricks.html">
-            <p>Username:</p>
-            <input type="text" id="name" placeholder="Username here" />
+            <input class="login" type="text" id="name" placeholder="Username" />
             <br>
-            <p>Password:</p>
-            <input type="password" id="password" name="varPassword" />
+            <input class="login" type="password" id="password" name="varPassword" placeholder="Password" />
             <br>
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
     </main>
+    
     <footer>
-        <div>Website Creator: Emma Hocker</div>
-        <div>Illustrator: Elizabeth Hocker</div>
-        <a href="https://github.com/ejhocker/startup.git">Github</a>
+        <div class="container-fluid">
+            <span class="text-reset">Website Creator: Emma Hocker</span>
+            <a class="text-reset" href="https://github.com/ejhocker/startup.git">Github</a>
+            <br>
+            <span class="text-reset">Illustrator: Elizabeth Hocker</span>
+        </div>
     </footer>
 </body>
 </html>
