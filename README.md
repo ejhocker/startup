@@ -36,4 +36,20 @@ The structure of the application has been built with HTML.
 - **Database** - The mastery of tricks checkbox list will be pulled from the database (maintaining the information across the app).
 - **WebSocket** - The notifications about other users learning tricks represent the interaction between users through the WebSocket.
 
+## CSS deliverable
+
+➡️ The following is an example of the required information for the `Startup CSS` deliverable
+
+For this deliverable I properly styled the application into its final appearance.
+
+**Prerequisite:** Simon CSS deployed to your production environment COMPLETED
+**Prerequisite:** A link to your GitHub startup repository prominently displayed on your application's home page COMPLETED
+- **Prerequisite:** Notes in your startup Git repository README.md file COMPLETED
+- **Header, footer, and main content body** - I used flex to make the sections lay out nicely.
+- **Navigation elements** - Changed the design slightly with how my navbar looks, and redid the lines.
+- **Responsive to window resizing** - The application still looks alright on different devices (ie pones, desktop, and tablets).
+- **Application elements** - login and navbar are using bootstrap
+- **Application text content** - Consistent fonts (sans-serif font)
+- **Application images** - curved edges around list photos
+
 [Notes](notes.md)
