@@ -34,3 +34,19 @@ footer {
     color: rgb(75, 102, 38,);
     background: rgba(247, 183, 5, 0.4);
 }
+
+main img {
+    border-radius: 50%;
+}
+
+h2 {
+    float: center;
+}
+
+footer button {
+    float: center;
+}
+
+p {
+    margin: 0;
+}
