@@ -38,8 +38,6 @@ The structure of the application has been built with HTML.
 
 ## CSS deliverable
 
-➡️ The following is an example of the required information for the `Startup CSS` deliverable
-
 For this deliverable I properly styled the application into its final appearance.
 
 **Prerequisite:** Simon CSS deployed to your production environment COMPLETED
@@ -52,5 +50,16 @@ For this deliverable I properly styled the application into its final appearance
 - **Application text content** - Consistent fonts (sans-serif font)
 - **Application images** - curved edges around list photos
 **Note** - The Sit trick is still the template design for the rest of the tricks, I am still planning on using JavaScript dynamic pages so I only updated one of the pages (Sit) with CSS.
+
+## JavaScript deliverable
+
+I implemented JavaScript in my application so that it now functions for a single user, as well as inputting placeholders for future technologies.
+
+- **login** - When the Login button is pressed the user is taken to the tricks page and the username is stored in local storage.
+- **database** - The mastery list currently draws upon the local storage to display the tricks the user has already mastered. It will later draw upon the database instead of the local storage to do so.
+- **WebSocket** - I used the setInterval function to display a new trick a different user has learned every 5 seconds. WebSocket will replace this in the future.
+- **application logic** - The mastery trick list functions as a checkbox with the bones changing from empty to yellow when clicked.
+
+
 
 [Notes](notes.md)
