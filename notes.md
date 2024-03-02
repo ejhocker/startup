@@ -4,6 +4,10 @@ Server IP Address: 3.219.24.87
 
 https://sitpretty.click
 
+./deployFiles.sh -k ~/School_Stuff/key-pair/cs260.pem -h sitpretty.click -s simon
+./deployFiles.sh -k ~/School_Stuff/key-pair/cs260.pem -h sitpretty.click -s startup
+
+
 #### Command line Commands:
 - echo - Output the parameters of the command
 - cd - Change directory
