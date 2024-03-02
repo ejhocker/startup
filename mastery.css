@@ -39,8 +39,8 @@ footer a {
     float: right;
 }
 
-.trick-mastered {
-    margin: 0;
+/*.trick-mastered {
+  margin: 0;
 	padding: 10px 0 10px 50px;
 	list-style: none;
 	background-image: url("emptyBone.JPG");
@@ -48,9 +48,7 @@ footer a {
 	background-position: left center;
 	background-size: 40px;
 	border-radius: 15%;
-
-	
-}
+}*/
 
 @media (orientation: portrait) {
 	main {
