@@ -12,3 +12,15 @@ function changeImage(id) {
     document.getElementById(id).src = "yellowBone.JPG";
     localStorage.setItem(id, true);
 }
+
+function checkReport() {
+    let trickIdList = ["checkSit", "checkStay", "checkLayDown", "checkRollover", "checkShake", "checkSpin", "checkTouch", "checkSpeak", "checkSitPretty"]
+    let report;
+    for (var i = 0; i < trickIdList.length; i++){
+        if (localStorage.getItem(trickIdList[i] === true)) {
+            report = "You have mastered the following tricks: " + trickIdList[i];
+        }
+    }
+    document.querySelector("#check-Report").textContent = report;
+}
+checkReport();
