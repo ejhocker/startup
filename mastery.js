@@ -18,7 +18,9 @@ function checkReport() {
     let report;
     for (var i = 0; i < trickIdList.length; i++){
         if (localStorage.getItem(trickIdList[i] === true)) {
-            report = "You have mastered the following tricks: " + trickIdList[i];
+            report = "You have previously mastered the following tricks: " + trickIdList[i];
+        } else {
+            report = "Master a trick by clicking a bone!";
         }
     }
     document.querySelector("#check-Report").textContent = report;
