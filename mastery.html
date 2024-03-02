@@ -32,52 +32,17 @@
 
     <main>
         <menu class="container">
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="sit.html">Sit</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="stay.html">Stay</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="layDown.html">Lay Down</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="rollover.html">Rollover</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="shake.html">Shake</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="spin.html">Spin</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="touch.html">Touch</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="speak.html">Speak</a></div>
-            <div class="trick-mastered"><img class="bone-image" src="emptyBone.JPG" alt="empty bone" width="40em"><a href="sitPretty.html">Sit Pretty</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkSit" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="sit.html">Sit</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkStay" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="stay.html">Stay</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkLayDown" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="layDown.html">Lay Down</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkRollover" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="rollover.html">Rollover</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkShake" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="shake.html">Shake</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkSpin" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="spin.html">Spin</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkTouch" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="touch.html">Touch</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkSpeak" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="speak.html">Speak</a></div>
+            <div class="trick-mastered"><img class="bone-image" id="checkSitPretty" src="emptyBone.JPG" alt="empty bone" width="40em" onclick="changeImage(this.id)"><a href="sitPretty.html">Sit Pretty</a></div>
         </menu>
-        <li class="trick-mastered">
-            <input type="checkbox" id="layDown" name="varCheckbox" value="layDown" />
-            <label for="layDown">Lay Down</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="Stay" name="varCheckbox" value="stay" />
-            <label for="stay">Stay</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="sit" name="varCheckbox" value="sit" />
-            <label for="sit">Sit</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="rollover" name="varCheckbox" value="rollover" />
-            <label for="rollover">Rollover</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="shake" name="varCheckbox" value="shake" />
-            <label for="shake">Shake</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="spin" name="varCheckbox" value="spin" />
-            <label for="spin">Spin</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="touch" name="varCheckbox" value="touch" />
-            <label for="touch">Touch</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="speak" name="varCheckbox" value="speak" />
-            <label for="speak">Speak</label>
-        </li>
-        <li class="trick-mastered">
-            <input type="checkbox" id="sitPretty" name="varCheckbox" value="sitPretty" />
-            <label for="sitPretty">Sit Pretty</label>
-        </li>
+
         <div id="dogFacts">
             <p>Fun Fact:</p>
             <p>Did you know that dogs are the oldest domesticated species on the Earth today?</p>
