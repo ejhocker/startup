@@ -29,6 +29,10 @@ main {
     background-color: rgba(75, 102, 38, 0.4);
 }
 
+.user-name {
+    color: rgb(156, 37, 8);
+}
+
 footer {
     flex: 0 30px;
     color: rgb(75, 102, 38,);
