@@ -9,6 +9,6 @@ function alreadyLearned() {
 }
 
 function changeImage(id) {
-    document.getElementById(id).src = "yellowBone.JPG";
+    document.getElementById(id).src = "Pictures/yellowBone.JPG";
     localStorage.setItem(id, true);
 }
