@@ -60,6 +60,14 @@ I implemented JavaScript in my application so that it now functions for a single
 - **WebSocket** - I used the setInterval function to display a new trick a different user has learned every 5 seconds. WebSocket will replace this in the future.
 - **application logic** - The mastery trick list functions as a checkbox with the bones changing from empty to yellow when clicked.
 
+## Service deliverable
 
+For this deliverable I added backend endpoints that receives votes and returns the voting totals.
+
+- **Node.js/Express HTTP service** - done!
+- **Static middleware for frontend** - done!
+- **Calls to third party endpoints** - I didn't have time to implement this. 😔
+- **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
+- **Frontend calls service endpoints** - I did this using the fetch function.
 
 [Notes](notes.md)
