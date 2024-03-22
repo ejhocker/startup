@@ -12,3 +12,10 @@ function changeImage(id) {
     document.getElementById(id).src = "Pictures/yellowBone.JPG";
     localStorage.setItem(id, true);
 }
+
+fetch('http://dog-api.kinduff.com')
+  .then((response) => response.json())
+  .then((jsonResponse) => {
+    document.querySelector.id("dogFact").textContent = JSON.stringify(
+        response);
+  });
