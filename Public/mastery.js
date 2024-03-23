@@ -16,6 +16,6 @@ function changeImage(id) {
 fetch('http://dog-api.kinduff.com')
   .then((response) => response.json())
   .then((jsonResponse) => {
-    document.querySelector.id("dogFact").textContent = JSON.stringify(
+    document.querySelector('#dogFact').textContent = JSON.stringify(
         response);
   });
