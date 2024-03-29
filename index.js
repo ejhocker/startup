@@ -6,11 +6,6 @@ const DB = require('./database.js');
 
 const authCookieName = 'token';
 
-const port = 8080;
-app.listen(port, function () {
-  console.log(`Listening on port ${port}`);
-});
-
 app.use(express.json());
 
 app.use(cookieParser());
@@ -90,4 +85,9 @@ function setAuthCookie(res, authToken) {
 
 app.use((_req, res) => {
   res.sendFile('index.html', { root: 'public' });
+});
+
+const port = 8080;
+app.listen(port, function () {
+  console.log(`Listening on port ${port}`);
 });
