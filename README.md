@@ -66,7 +66,7 @@ For this deliverable I added backend endpoints that receives votes and returns t
 
 - **Node.js/Express HTTP service** - done!
 - **Static middleware for frontend** - done!
-- **Calls to third party endpoints** - I didn't have time to implement this. 😔
+- **Calls to third party endpoints** - I didn't have time to implement this. 
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
 - **Frontend calls service endpoints** - I did this using the fetch function.
 
@@ -79,6 +79,15 @@ The
 - **User registration** - Creates a new account in the database.
 - **existing user** - Stores the votes under the same user if the user already exists.
 - **Use MongoDB to store credentials** - Stores both user and their votes.
-- **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 😔
+- **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 
+
+## React deliverable
+
+I bundled my application through vite and reorganized it a little bit. I got confused about the rest, so this is all I am turning in for this deliverable.
+
+- **Bundled and transpiled** - done!
+- **Components** - I did not get this far
+- **Router** - not present
+- **Hooks** - not present
 
 [Notes](notes.md)

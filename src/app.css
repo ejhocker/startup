@@ -39,26 +39,29 @@ footer a {
     float: right;
 }
 
-.trick-mastered {
-  margin: 0;
-	padding: 10px 0 10px 50px;
+p {
+    margin: 0;
 }
-.bone-image {
-  border-radius: 100%;
+
+div {
+    padding: 0 0.5
 }
-  
+
+.login {
+    padding-bottom: 1px;
+}
 
 @media (orientation: portrait) {
-	main {
-	  flex-direction: column;
-	}
+    main {
+      flex-direction: column;
+    }
   }
   
   @media (max-height: 500px) {
-	header {
-	  display: none;
-	}
-	footer {
-	  display: none;
-	}
+    header {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
   }
