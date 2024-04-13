@@ -83,9 +83,9 @@ The
 
 ## React deliverable
 
-I bundled my application through vite and reorganized it a little bit. I got confused about the rest, so this is all I am turning in for this deliverable.
+I bundled my application through vite and reorganized it a little bit. I got confused about the rest, so this is all I am turning in for this deliverable. I'm not sure why it doesn't work through my actual website, but the vite works through npm run dev. hopefully, that's enough, as I did bundle it completely through Vite.
 
-- **Bundled and transpiled** - done!
+- **Bundled and transpiled** - finished
 - **Components** - I did not get this far
 - **Router** - not present
 - **Hooks** - not present
