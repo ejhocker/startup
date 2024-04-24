@@ -1,3 +1,61 @@
+Ssh – 22
+https – 443
+http – 80
+
+Common HTTP Headers:
+•	Accept
+•	Authorization
+•	Cookie
+•	Content-type
+•	Host
+•	Referer
+•	Accept header
+•	Connection
+•	ETag
+•	Location
+•	Proxy headers
+•	Caching HTTP headers
+•	Cookie header
+•	Expect
+•	Forwarded
+•	IM
+•	Vary
+
+JSX combines HTML and JavaScript, CSS is still its own thing
+	Composability – you can compose it from other things
+
+Linux Daemons – little things that are not the user that runs on the operating system accomplishing processes (they run on the background all the time)
+	Start when the computer is rebooted,
+	Executes independent of the user
+	PM2 is an example of a daemon
+	Forks other processes
+
+Always check the get, put, use, and delete!
+
+Cookies allow the server to store things on the client – the server leaves things with the client so that the next time the client calls the server they have those things already.
+
+HTTP Status Codes:
+	Informational responses (100 – 199)
+  Successful responses (200 – 299)
+  Redirection messages (300 – 399)
+  Client error responses (400 – 499)
+  Server error responses (500 – 599)
+
+useState happens when something is rendered to update something
+useEffect happens after something is rendered to cause something else to happen (side effects)
+
+
+
+
+
+
+
+
+
+
+
+
+
 Visual Code is very good at making sure everything runs smoothly when it comes to github and commits. Even if I mess something up, it will still be in my Github!
 
 Server IP Address: 3.219.24.87
